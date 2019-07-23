@@ -1360,7 +1360,7 @@ and "result" with one of the following values:
     Version: MAJOR.MINOR.PATCH. Built: dd.MM.yyyy hh:mm
 ```
 
-Version numbers (starting from version 5.1.1):
+Version numbering:
 
 * MAJOR version is incremented when a new API is released or if there have been major internal changes. See chapter [2.7.](#27-backwards-compatibility) for notes about API backwards compatibility.
 * MINOR version is incremented when there are smaller internal changes, new request parameters or new response fields are added.
