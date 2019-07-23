@@ -47,9 +47,9 @@
         *   [3.3.8. Session end result codes](#338-session-end-result-codes)
         *   [3.3.9. HTTP error codes](#339-http-error-codes)
     *   [3.4. API version](#34-api-version)
-	*   [3.4.1. Example response](#341-example-request)
-	*   [3.4.2. Response structure](#342-response-structure)
-	*   [3.4.3. Public demo environment version number](#343-public-demo-environment-version-number)
+        *   [3.4.1. Example response](#341-example-response)
+        *   [3.4.2. Response structure](#342-response-structure)
+        *   [3.4.3. Public demo environment version number](#343-public-demo-environment-version-number)
 *   [4\. Helper libraries and demo applications](#4-helper-libraries-and-demo-applications)
     *   [4.1\. Java](#41-java)
     *   [4.2\. PHP](#42-php)
@@ -1091,7 +1091,8 @@ Description
     <td colspan="1" class="confluenceTd">cert</td>
     <td colspan="1" class="confluenceTd">string</td>
     <td colspan="1" class="confluenceTd">Only if process was authentication and signature is present.</td>
-    <td colspan="1" class="confluenceTd">Authentication certificate used. DER + Base64 encoded. Signing process doesn't return this value.</td>
+    <td colspan="1" class="confluenceTd">Authentication certificate used. DER + Base64 encoded. Signing process doesn't return this value (need to pull separately). 
+    From the certificate it is possible to obtain end user name, national identity number and country. See [mid-rest-java-client](https://github.com/SK-EID/mid-rest-java-client) or [mid-rest-php-client](https://github.com/SK-EID/mid-rest-php-client) for examples how to parse the certificate.</td>
 </tr>
 
 </tbody>
