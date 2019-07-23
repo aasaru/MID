@@ -1357,7 +1357,7 @@ and "result" with one of the following values:
 ### 3.4.2. Response structure 
 
 ```
-Version: MAJOR.MINOR.PATCH. Built: dd.MM.yyyy hh:mm
+    Version: MAJOR.MINOR.PATCH. Built: dd.MM.yyyy hh:mm
 ```
 
 Version numbers (starting from version 5.1.1):
