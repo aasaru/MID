@@ -149,6 +149,8 @@ As this can take time - these processes are split in two parts:
 * First request initiates the process and immediately returns session id to the Relying Party.
 * Relying Party has to then periodically make status check requests until the process has finished.
 
+![Main flows of MID REST API](images/RP_Mid-Gateway.png?raw=true "Main flows of MID REST API")
+
 ## <span class="numhead-number">2.7.</span> Backwards compatibility
 
 MID-REST API-s remain backwards compatible with following exceptions:
